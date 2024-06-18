@@ -1,0 +1,82 @@
+:root {
+    --darkblack:#313131;
+    --black:#3E3E3E;
+    --blue_light: #C0E4FF;
+    --blue_dark: #003AAB;
+}
+body {
+    margin: 0px;
+}
+.titre {
+    color :var(--darkblack);
+    font-weight: 600;
+    size: 32px;
+}
+.nom {
+    color :var(--darkblack);
+}
+.infos {
+    color: var(--black);
+    font-weight: 400;
+    size: 0px 4px;
+}
+.container {
+    display: flex;
+    height: 100vh;
+}
+.presentation {
+    background: var(--blue_light);
+    width: 50hv;
+    padding: 40px 32px;
+}
+.projects {
+    background: var(--black);
+}
+.hobby {
+    color :var(--darkblack)
+     40px;
+    font-weight: 600;
+}
+.titre2 {
+    color :var(--black);
+    font-weight: 600;
+   font-size: 24px;
+   width: 100%;
+}
+.sousTitre {
+    color: var(--blue_dark);
+    font-weight: 400;
+   size: 16px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.photo-profile{
+    width: 140px;
+    border-radius: 50%;
+}
+
+.container-spacing{
+    gap: 40px;
+}
+
+.icon{
+    width: 80px;
+    height: 80px;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+
+.icon-size{
+    width: 20%;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-size{
+    width: 80%;
+}
